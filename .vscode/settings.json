@@ -1,0 +1,6 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Program Files\\NetBeans-18\\netbeans\\java\\maven\\bin;${env:PATH}"
+    }
+}

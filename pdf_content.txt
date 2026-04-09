@@ -1,0 +1,142 @@
+﻿Total pages: 3
+
+=== PAGE 1 ===
+Skema Pembelajaran Automation Testing pada pengujian unit testing  
+Mahasiswa diarahkan untuk paham environment automation testing dengan menggunakan 
+build tools automation. Pemilihan tools diserahkan kepada mahasiswa dengan syarat saat 
+running aplikasi jangan klik run pada icon, tetapi pakai terminal menggunakan mengetikkan 
+perintah command line interface.  
+Testing Tools 
+ÔùÅÔÇï IDE : eclipse, intellij IDEA, visual studio code, notepad dll 
+ÔùÅÔÇï alat build otomatis : Gradle, Apache Maven, Apache Ivy, Ant dll 
+ÔùÅÔÇï tools buat runing : Terminal 
+ÔùÅÔÇï sistem operasi : Window, Linux  
+ÔùÅÔÇï unit testing : Java (Junit, TestNG), Javascript (Jest,Mocha,Cypress), PHP (PhpUnit), 
+Ruby (test-unit), Phyton (PyUnit, Pytest) dll   
+ÔùÅÔÇï Bahasa pemrograman : Java, phyton, C dll (disarankan menggunakan Java, karena 
+persiapan environment ini akan berlanjut pada pengujian fungsionalitas software 
+menggunakan selenium, cucumber. Kedua tools tersebut sudah banyak tutorialnya 
+dalam bahasa Java, tetapi jika mau menggunakan bahasa selain Java dipersilahkan 
+karena selenium dan cucumber mendukung bahasa lain juga) 
+Step:  
+1.ÔÇï Pelajari prinsip kerja environment yg dibutuhkan : JDK, gradle/maven, IDE 
+2.ÔÇï Pelajari instalasi dan persyaratan setiap tools 
+3.ÔÇï Pelajari struktur project termasuk cara membuatnya 
+4.ÔÇï Pelajari gradle/mvn task : running, compile project, dll 
+5.ÔÇï Pelajari property project 
+6.ÔÇï Pelajari build project 
+7.ÔÇï Pelajari dependency management 
+8.ÔÇï Pelajari distribution file 
+9.ÔÇï Pelajari source code management (repository, branch, commit, push, pull, merge, dan 
+resolve conflict) 
+10.ÔÇïPelajari penggunaan unit testing tools pada project (buka kembali catatan dari kuliah tekpro 
+dan pbo) 
+Jumlah Pertemuan : 2 (Setiap Pertemuan : 2 JP dikelas, 3 JP mandiri diluar kuliah) 
+ÔùÅÔÇï Pertemuan pertama: belajar konsep, merancang test case menggunakan path testing, 
+pemilihan tools, pencarian how to preparation automation testing framework dan 
+praktikum persiapan environment, menyiapkan SUT (project grading mahasiswa atau 
+yang lain jika sudah punya) dengan tiga buah modul. 
+ÔùÅÔÇï Pertemuan kedua: praktikum unit testing menggunakan environment yang sudah 
+disiapkan digunakan dengan agenda menuliskan script test dan eksekusi test. 
+Goal : Mahasiswa dapat memahami persiapan environment automation testing pada unit 
+testing dengan pendekatan white box testing (path testing) 
+Outcome diupload di GCR 
+ÔùÅÔÇï Laporan pemahaman (penjelasan dan screenshoot) 
+ÔùÅÔÇï test case design (termasuk CFG dan independent path) dan test result 
+ÔùÅÔÇï script program testing di upload di github 
+
+
+=== PAGE 2 ===
+ÔùÅÔÇï test report yang di generate oleh tools dan test incident hasil analisis bug  
+ÔùÅÔÇï video running testing, setiap orang satu video (pilih salah satu dari objektif testing) 
+ 
+Instruksi Praktikum 
+1.ÔÇï Mahasiswa secara berkelompok (2-3 orang) memahami dan melakukan persiapan 
+environment automation testing. 
+2.ÔÇï Persiapkan software under test dengan memilih topik di bawah ini.  
+a.ÔÇï Program Penentuan Grading - harus buat dari nol sesuai requirement 
+b.ÔÇï Program case study proyek 3 atau output program mata kuliah lain 
+3.ÔÇï Lakukan test case development dengan membuat analisa test case dan test case 
+4.ÔÇï Buat script unit testing untuk masing-masing method program 
+5.ÔÇï Lakukan test case execution 
+6.ÔÇï Laporkan hasil pengujian pada test result 
+7.ÔÇï Jika ada bug, maka buat test incident reportnya, tunjukkan letak kesalahannya 
+8.ÔÇï Buat reporting pengujian menggunakan generate reporting tools 
+9.ÔÇï Buat laporan praktikum yang berisi penjelasan pengaturan environment, alur proses 
+kerja running program test, petakan setiap langkah pengujian ke dalam konsep 
+programming, penjelasan test reporting dan screenshoot bukti instalasi termasuk 
+development project dan testing).    
+ 
+Persiapan Software Under Test 
+Program Pengolahan Nilai Mahasiswa 
+1.ÔÇï Buat project sederhana (Pengolahan nilai mahasiswa: validasi, penentuan nilai akhir 
+dan penentuan grade serta status kelulusan) menggunakan environment yang sudah 
+dibuat dengan Main App:  
+ÔùÅÔÇï User menginputkan nilai mahasiswa berulang kali 
+ÔùÅÔÇï Program memvalidasi input 
+ÔùÅÔÇï Program menghitung nilai akhir 
+ÔùÅÔÇï Program menentukan grade & kelulusan dan menampilkannya kelayar 
+ÔùÅÔÇï Program mengelola proses secara berulang (loop menu) sehingga user dapat 
+berinteraksi secara berulang 
+2.ÔÇï Buat modul program yang terisolasi dari modul lain. Modul ini digunakan untuk 
+melakukan proses pengolahan nilai, yaitu buah modul input data, validasi data, dan 
+modul komputasi untuk menentukan nilai Akhir, grade dan status kelulusan. 
+Pembuatan modul harus dibuat modular dan terisonalasi. Setiap modul dipanggil 
+dalam sebuah modul utama pemrosesan pengolahan nilai dan dikembalikan nilainya 
+ke main program sebagai interface aplikasi. 
+3.ÔÇï Modul validasi data 
+a.ÔÇï input nilai_tugas, nilai_uts, nilai_uas 
+b.ÔÇï Output Valid (True) / Tidak valid (False) 
+c.ÔÇï Proses : tentukan kevalidan data berdasarkan aturan: 
+1. Jika semua nilai antara 0ÔÇô100 ÔåÆ valid 
+2. Jika ada nilai < 0 atau > 100 ÔåÆ tidak valid 
+3. Jika semua nilai = 0 ÔåÆ tidak valid (anggap belum input) 
+d.ÔÇï Modul validasi ini dipanggil oleh modul input data, selama modul menghasilkab 
+tidak valid, maka user diminta untuk menginputkan data sampai benar 
+
+
+=== PAGE 3 ===
+4.ÔÇï Modul Perhitungan Nilai Akhir 
+a.ÔÇï input nilai_tugas (30%), nilai_uts (30%), nilai_uas (40%) 
+b.ÔÇï Output nilai_akhir 
+c.ÔÇï Proses : tentukan perhitungan nilai akhir berdasarkan aturan: 
+1. nilai_akhir = (0.3 * tugas) + (0.3 * uts) + (0.4 * uas) 
+2. Jika nilai tidak valid ÔåÆ return error (-1) 
+3. Jika nilai akhir > 100 ÔåÆ dianggap error 
+5.ÔÇï Modul Penentuan Grade 
+a.ÔÇï input nilai_akhir 
+b.ÔÇï Output grade (A, B, C, D, E) 
+c.ÔÇï Proses : tentukan perhitungan nilai akhir berdasarkan aturan: 
+1. Jika nilai ÔëÑ 85 ÔåÆ A 
+2. Jika 70ÔÇô84 ÔåÆ B 
+3. Jika 60ÔÇô69 ÔåÆ C 
+4. Jika 50ÔÇô59 ÔåÆ D 
+5. Jika < 50 ÔåÆ E 
+6.ÔÇï Modul Penentuan Kelulusan 
+d.ÔÇï input nilai_akhir 
+e.ÔÇï Output status (Lulus / Tidak) 
+f.ÔÇï
+Proses : tentukan perhitungan nilai akhir berdasarkan aturan: 
+1. Jika nilai ÔëÑ 60 ÔåÆ Lulus 
+2. Jika < 60 ÔåÆ Tidak Lulus 
+ 
+Program Case Study Proyek 3 
+Pilihlah source code dari case study proyek 3 atau mata kuliah yang memuat tiga modul 
+dengan kompleksitas program mencakup Loop, Decision dan Multiple branching atau enam 
+buah modul sederhana yang masing-masing memiliki struktur sequence, selection dan 
+looping. Syarat project harus bisa menjalankan unit testing sesuai lingkungan environment 
+yang menggunakan build tools 
+ 
+ 
+Link Referensi Build Tools (Gradle) 
+ 
+1.ÔÇï https://www.jetbrains.com/help/idea/getting-started-with-gradle.html 
+2.ÔÇï https://www.youtube.com/playlist?list=PL-CtdCApEFH8yGJzfU_gners0ybO4MlrV  
+3.ÔÇï https://mkyong.com/gradle/gradle-display-test-results-in-console/  
+4.ÔÇï https://docs.google.com/presentation/d/1zyf2vwa3Lzk-5ydJ6nOXtyEw4B8IXjc5Ia3bz-4F
+-QI/edit#slide=id.p  
+5.ÔÇï https://docs.gradle.org/current/userguide/testing_gradle_plugins.html  
+ 
+Jika ingin menggunakan build tools lain, silahkan ya. Sifatnya tawaran saja, jika ingin 
+menggunakan Gradle. 
+
