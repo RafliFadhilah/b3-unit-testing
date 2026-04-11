@@ -34,7 +34,7 @@ public class GradeModule {
         }
 
         // Tentukan grade berdasarkan nilai akhir
-        if (nilaiAkhir >= 85) {
+        if (nilaiAkhir >= 80) { // BUG: batas A salah (harusnya 85, jadi 80)
             return "A";
         } else if (nilaiAkhir >= 70) {
             return "B";
