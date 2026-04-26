@@ -1,5 +1,12 @@
-d:\sw testing\praktikum_7\src\test\java\CalculationModuleTest.java
-d:\sw testing\praktikum_7\src\test\java\GradeModuleTest.java
-d:\sw testing\praktikum_7\src\test\java\InputModuleTest.java
-d:\sw testing\praktikum_7\src\test\java\PassStatusModuleTest.java
-d:\sw testing\praktikum_7\src\test\java\ValidationModuleTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\GetDeskripsiGradeTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\GetKeteranganKelulusanTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\GetStatusKelulusanTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\HitungNilaiAkhirTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\IsInRangeTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\IsLulusTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\IsNamaValidTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\IsValidTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\MahasiswaConstructorTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\SetNamaMahasiswaTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\TentukanGradeTest.java
+D:\code\college\smt6\PPL\w9\b3-unit-testing\src\test\java\ToStringTest.java

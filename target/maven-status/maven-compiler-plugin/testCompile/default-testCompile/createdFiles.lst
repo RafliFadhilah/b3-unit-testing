@@ -1,5 +1,12 @@
-InputModuleTest.class
-PassStatusModuleTest.class
-ValidationModuleTest.class
-CalculationModuleTest.class
-GradeModuleTest.class
+IsLulusTest.class
+GetKeteranganKelulusanTest.class
+SetNamaMahasiswaTest.class
+GetStatusKelulusanTest.class
+ToStringTest.class
+HitungNilaiAkhirTest.class
+IsValidTest.class
+MahasiswaConstructorTest.class
+IsNamaValidTest.class
+TentukanGradeTest.class
+GetDeskripsiGradeTest.class
+IsInRangeTest.class
